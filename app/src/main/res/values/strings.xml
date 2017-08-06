@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TAI World Clock with Calendar</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+</resources>

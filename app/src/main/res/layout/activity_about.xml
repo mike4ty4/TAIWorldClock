@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.sense.taiworldclockwithcalendar.AboutActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TAI World Clock\nUses Time4J/Time4A libraries by MenoData, LGPL v2.1.\nSource code at:\n https://github.com/MenoData/Time4A/\n\nThis program also licensed under LGPL v2.1.\nSource code at:\nhttps://github.com/mike4ty4/TAIWorldClock/\nCredit THIS PROGRAM to mike4ty4."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TAI World Clock\nUses Time4J/Time4A libraries by MenoData, LGPL v2.1.\nSource code at: https://github.com/MenoData/Time4A\nThis program also licensed under LGPL v2.1. Source code at:\nhttps://github.com/mike4ty4/TAIWorldClock/\nCredit THIS PROGRAM to mike4ty4." />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/yearTextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2017"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previousYearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="prevYear"
+            android:text="Previous Year" />
+
+        <Button
+            android:id="@+id/nextYearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="nextYear"
+            android:text="Next Year" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dip"
+        android:gravity="center"
+        android:horizontalSpacing="5dip"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dip"
+        android:listSelector="@drawable/list_selector"/>
+</LinearLayout>
