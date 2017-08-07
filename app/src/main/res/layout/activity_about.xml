@@ -14,7 +14,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="TAI World Clock\nUses Time4J/Time4A libraries by MenoData, LGPL v2.1.\nSource code at:\n https://github.com/MenoData/Time4A/\n\nThis program also licensed under LGPL v2.1.\nSource code at:\nhttps://github.com/mike4ty4/TAIWorldClock/\nCredit THIS PROGRAM to mike4ty4."
+        android:text="TAI World Clock\nUses Time4J/Time4A libraries (C) MenoData, LGPL v2.1.\nSource code at:\n https://github.com/MenoData/Time4A/\n\nThis program also licensed under LGPL v2.1.\nSource code at:\nhttps://github.com/mike4ty4/TAIWorldClock/\nCredit THIS PROGRAM to mike4ty4."
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
